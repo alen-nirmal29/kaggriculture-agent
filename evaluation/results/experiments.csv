@@ -1,0 +1,3 @@
+version,change,champion,games_vs_champion,wins,losses,draws,win_rate,decisive_win_rate,ci_lower,ci_upper,avg_reward,avg_champion_reward,avg_reward_difference,status,notes
+V1,Fixed six-tile carrot baseline,V1,0,,,,,,,,6178.7,,,existing_champion,Pre-existing verified champion; average shown is historical vs starter.
+V2,Dynamic crop economics,V1,500,500,0,0,1.0,1.0,0.9923756595384479,1.0,18784.206,6418.772,12365.434,V2 QUALIFIES FOR PROMOTION,"All reliability gates passed, decisive win rate is at least 55%, Wilson lower bound exceeds 50%, and baseline regressions are clean."
