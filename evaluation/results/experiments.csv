@@ -2,3 +2,4 @@ version,change,champion,games_vs_champion,wins,losses,draws,win_rate,decisive_wi
 V1,Fixed six-tile carrot baseline,V1,0,,,,,,,,6178.7,,,existing_champion,Pre-existing verified champion; average shown is historical vs starter.
 V2,Dynamic crop economics,V1,500,500,0,0,1.0,1.0,0.9923756595384479,1.0,18784.206,6418.772,12365.434,V2 QUALIFIES FOR PROMOTION,"All reliability gates passed, decisive win rate is at least 55%, Wilson lower bound exceeds 50%, and baseline regressions are clean."
 V3,Managed farm capacity experiment; selected 12 plots,V2,500,499,1,0,0.998,0.998,0.9887592932948532,0.9996468636054407,22398.844,16074.752,6324.092,V3 QUALIFIES FOR PROMOTION,Best capacity from fixed 100-game sweep: 12.
+V4,Worker scheduling with max 4 hands and 24 managed plots,V3,500,500,0,0,1.0,1.0,0.9923756595384479,1.0,26599.26,15234.554,11364.706,V4 QUALIFIES FOR PROMOTION,Best labor policy max 4 hands; best unlocked capacity 24; no land purchased.
