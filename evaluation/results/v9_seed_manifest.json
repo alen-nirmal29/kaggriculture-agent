@@ -1,0 +1,13 @@
+{
+  "method": "balanced pairs: seed = block base + game_index // 2; candidate position = game_index % 2",
+  "development": {
+    "labor": {"four": [1294000, 1294049], "five": [1295000, 1295049], "six": [1296000, 1296049]},
+    "interactions": {"one_cow": [1290100, 1290149], "two_cows": [1291100, 1291149], "first_land": [1292100, 1292149]},
+    "strength": {"0.075": [1290950, 1290999], "0.10": [1291200, 1291249], "0.125": [1291450, 1291499]},
+    "horizon": {"3": [1290700, 1290749], "4": [1290800, 1290849], "5": [1290900, 1290949]}
+  },
+  "validation": {"games": 500, "seeds": [1390000, 1390249]},
+  "final_holdout": {"games": 1000, "seeds": [1490000, 1490499]},
+  "stress": {"opponent_pool": [1690000, 1692049], "self_play": [1695000, 1695099]},
+  "development_validation_holdout_stress_disjoint": true
+}

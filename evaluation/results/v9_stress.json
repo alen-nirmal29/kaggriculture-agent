@@ -1,0 +1,3694 @@
+{
+  "opponents": {
+    "V6": {
+      "games": 50,
+      "completed": 50,
+      "wins": 50,
+      "losses": 0,
+      "draws": 0,
+      "decisive_win_rate": 1.0,
+      "wilson": {
+        "lower": 0.9286524008666414,
+        "upper": 1.0
+      },
+      "v9_reward": {
+        "mean": 29690.44,
+        "median": 29541.0,
+        "minimum": 26727.0,
+        "maximum": 33749.0,
+        "standard_deviation": 1381.9831715328519
+      },
+      "opponent_reward": {
+        "mean": 26674.02,
+        "median": 26546.5,
+        "minimum": 23659.0,
+        "maximum": 33558.0,
+        "standard_deviation": 1587.895972537244
+      },
+      "difference": {
+        "mean": 3016.42,
+        "median": 3082.0,
+        "minimum": 191.0,
+        "maximum": 4933.0,
+        "standard_deviation": 869.2578924576986
+      },
+      "crashes": 0,
+      "timeouts": 0,
+      "invalid_action_failures": 0,
+      "timing": {
+        "mean": 0.0013155682643769264,
+        "median": 0.0012058999855071306,
+        "minimum": 0.000501199858263135,
+        "maximum": 0.09246629988774657,
+        "standard_deviation": 0.001964573258800473
+      }
+    },
+    "V4": {
+      "games": 50,
+      "completed": 50,
+      "wins": 50,
+      "losses": 0,
+      "draws": 0,
+      "decisive_win_rate": 1.0,
+      "wilson": {
+        "lower": 0.9286524008666414,
+        "upper": 1.0
+      },
+      "v9_reward": {
+        "mean": 29706.12,
+        "median": 29423.0,
+        "minimum": 25955.0,
+        "maximum": 32087.0,
+        "standard_deviation": 1285.7543566327124
+      },
+      "opponent_reward": {
+        "mean": 24222.88,
+        "median": 24529.0,
+        "minimum": 21431.0,
+        "maximum": 25705.0,
+        "standard_deviation": 1072.9969923536598
+      },
+      "difference": {
+        "mean": 5483.24,
+        "median": 5653.0,
+        "minimum": 3755.0,
+        "maximum": 7720.0,
+        "standard_deviation": 1098.4641379671891
+      },
+      "crashes": 0,
+      "timeouts": 0,
+      "invalid_action_failures": 0,
+      "timing": {
+        "mean": 0.0013957370963706653,
+        "median": 0.0013431500410661101,
+        "minimum": 0.0005319998599588871,
+        "maximum": 0.07327049993909895,
+        "standard_deviation": 0.0018209298206343092
+      }
+    },
+    "starter": {
+      "games": 50,
+      "completed": 50,
+      "wins": 50,
+      "losses": 0,
+      "draws": 0,
+      "decisive_win_rate": 1.0,
+      "wilson": {
+        "lower": 0.9286524008666414,
+        "upper": 1.0
+      },
+      "v9_reward": {
+        "mean": 40800.1,
+        "median": 40928.0,
+        "minimum": 39201.0,
+        "maximum": 42573.0,
+        "standard_deviation": 946.8103558791486
+      },
+      "opponent_reward": {
+        "mean": 3562.04,
+        "median": 3563.0,
+        "minimum": 3461.0,
+        "maximum": 3723.0,
+        "standard_deviation": 77.64533727146788
+      },
+      "difference": {
+        "mean": 37238.06,
+        "median": 37406.5,
+        "minimum": 35574.0,
+        "maximum": 38899.0,
+        "standard_deviation": 957.3303799629467
+      },
+      "crashes": 0,
+      "timeouts": 0,
+      "invalid_action_failures": 0,
+      "timing": {
+        "mean": 0.001319550815619974,
+        "median": 0.0013004000065848231,
+        "minimum": 0.000538000138476491,
+        "maximum": 0.06079309992492199,
+        "standard_deviation": 0.0010595430999131776
+      }
+    }
+  },
+  "self_play": {
+    "games": 100,
+    "completed": 100,
+    "crashes": 0,
+    "timeouts": 0,
+    "invalid_action_failures": 0,
+    "episodes": [
+      {
+        "seed": 1695000,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31068.0,
+          31068.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695001,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          23858.0,
+          23791.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695002,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29864.0,
+          29864.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695003,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31112.0,
+          31112.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695004,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29016.0,
+          29016.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695005,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30562.0,
+          28799.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695006,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30925.0,
+          30925.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695007,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29419.0,
+          29419.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695008,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          27812.0,
+          27590.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695009,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30833.0,
+          30833.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695010,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29579.0,
+          29579.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695011,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29674.0,
+          29674.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695012,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          26775.0,
+          26775.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695013,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28433.0,
+          28433.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695014,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29042.0,
+          28804.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695015,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30430.0,
+          29777.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695016,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29920.0,
+          29920.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695017,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          26524.0,
+          26524.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695018,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28805.0,
+          28805.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695019,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29242.0,
+          29242.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695020,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30323.0,
+          30323.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695021,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29573.0,
+          29573.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695022,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30188.0,
+          30188.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695023,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30573.0,
+          30573.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695024,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          26299.0,
+          26299.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695025,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28512.0,
+          28512.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695026,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29835.0,
+          29835.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695027,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29334.0,
+          29334.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695028,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          26060.0,
+          26060.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695029,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28531.0,
+          28531.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695030,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30454.0,
+          30454.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695031,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30154.0,
+          30154.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695032,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29544.0,
+          29544.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695033,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          27521.0,
+          27521.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695034,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30139.0,
+          30139.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695035,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31430.0,
+          30027.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695036,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30323.0,
+          30323.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695037,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29519.0,
+          29771.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695038,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29970.0,
+          29970.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695039,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29266.0,
+          30094.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695040,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30614.0,
+          30614.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695041,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30870.0,
+          30870.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695042,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31511.0,
+          31511.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695043,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30576.0,
+          30576.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695044,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31143.0,
+          31143.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695045,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30365.0,
+          30365.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695046,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28162.0,
+          28162.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695047,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          27780.0,
+          27780.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695048,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          32520.0,
+          32520.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695049,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29600.0,
+          30129.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695050,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29408.0,
+          29408.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695051,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29342.0,
+          29342.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695052,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30489.0,
+          30489.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695053,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30896.0,
+          30610.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695054,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28450.0,
+          28450.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695055,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30455.0,
+          30455.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695056,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          32545.0,
+          32545.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695057,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30663.0,
+          30663.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695058,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28908.0,
+          28908.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695059,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30336.0,
+          30336.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695060,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29842.0,
+          29766.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695061,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          26630.0,
+          26630.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695062,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29488.0,
+          30564.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695063,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30188.0,
+          30188.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695064,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30770.0,
+          30770.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695065,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          27970.0,
+          27970.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695066,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28763.0,
+          28680.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695067,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29846.0,
+          29846.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695068,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29515.0,
+          29515.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695069,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28325.0,
+          28325.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695070,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          38096.0,
+          38096.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695071,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          27475.0,
+          27475.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695072,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30402.0,
+          30402.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695073,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30897.0,
+          30897.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695074,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29948.0,
+          29948.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695075,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28491.0,
+          28491.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695076,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30128.0,
+          30128.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695077,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31450.0,
+          31450.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695078,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28949.0,
+          28949.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695079,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31593.0,
+          31593.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695080,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29712.0,
+          29712.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695081,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31555.0,
+          31555.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695082,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30175.0,
+          30175.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695083,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30971.0,
+          30971.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695084,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29754.0,
+          29754.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695085,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30292.0,
+          30292.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695086,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30436.0,
+          30436.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695087,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          25870.0,
+          25870.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695088,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29095.0,
+          29095.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695089,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29551.0,
+          29551.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695090,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          31204.0,
+          31204.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695091,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29547.0,
+          29547.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695092,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29237.0,
+          29484.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695093,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29993.0,
+          29993.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695094,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28805.0,
+          27555.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695095,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          29817.0,
+          29817.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695096,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          25980.0,
+          25980.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695097,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          26936.0,
+          26936.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695098,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          28224.0,
+          28224.0
+        ],
+        "error": null
+      },
+      {
+        "seed": 1695099,
+        "completed": true,
+        "statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "rewards": [
+          30483.0,
+          30483.0
+        ],
+        "error": null
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "seed": 1690000,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28479.0,
+      "opponent_reward": 27017.0,
+      "difference": 1462.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690000,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28479.0,
+      "opponent_reward": 27017.0,
+      "difference": 1462.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690001,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30323.0,
+      "opponent_reward": 27026.0,
+      "difference": 3297.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690001,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30323.0,
+      "opponent_reward": 27026.0,
+      "difference": 3297.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690002,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28609.0,
+      "opponent_reward": 26544.0,
+      "difference": 2065.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690002,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28609.0,
+      "opponent_reward": 26544.0,
+      "difference": 2065.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690003,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30599.0,
+      "opponent_reward": 27722.0,
+      "difference": 2877.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690003,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30898.0,
+      "opponent_reward": 27866.0,
+      "difference": 3032.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690004,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28612.0,
+      "opponent_reward": 25597.0,
+      "difference": 3015.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690004,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28612.0,
+      "opponent_reward": 25597.0,
+      "difference": 3015.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690005,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29124.0,
+      "opponent_reward": 25025.0,
+      "difference": 4099.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690005,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29124.0,
+      "opponent_reward": 25025.0,
+      "difference": 4099.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690006,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28268.0,
+      "opponent_reward": 25810.0,
+      "difference": 2458.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690006,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28268.0,
+      "opponent_reward": 25810.0,
+      "difference": 2458.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690007,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29414.0,
+      "opponent_reward": 26909.0,
+      "difference": 2505.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690007,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29409.0,
+      "opponent_reward": 27299.0,
+      "difference": 2110.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690008,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29097.0,
+      "opponent_reward": 25411.0,
+      "difference": 3686.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690008,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29097.0,
+      "opponent_reward": 25411.0,
+      "difference": 3686.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690009,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30578.0,
+      "opponent_reward": 27832.0,
+      "difference": 2746.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690009,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30578.0,
+      "opponent_reward": 27832.0,
+      "difference": 2746.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690010,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29356.0,
+      "opponent_reward": 26549.0,
+      "difference": 2807.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690010,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 33749.0,
+      "opponent_reward": 33558.0,
+      "difference": 191.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690011,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30969.0,
+      "opponent_reward": 27293.0,
+      "difference": 3676.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690011,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30969.0,
+      "opponent_reward": 27293.0,
+      "difference": 3676.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690012,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30965.0,
+      "opponent_reward": 27869.0,
+      "difference": 3096.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690012,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30965.0,
+      "opponent_reward": 27869.0,
+      "difference": 3096.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690013,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29814.0,
+      "opponent_reward": 28693.0,
+      "difference": 1121.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690013,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31395.0,
+      "opponent_reward": 29314.0,
+      "difference": 2081.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690014,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28633.0,
+      "opponent_reward": 26077.0,
+      "difference": 2556.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690014,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28633.0,
+      "opponent_reward": 26077.0,
+      "difference": 2556.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690015,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31435.0,
+      "opponent_reward": 27767.0,
+      "difference": 3668.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690015,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31435.0,
+      "opponent_reward": 27767.0,
+      "difference": 3668.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690016,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30879.0,
+      "opponent_reward": 27991.0,
+      "difference": 2888.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690016,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30652.0,
+      "opponent_reward": 27167.0,
+      "difference": 3485.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690017,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30041.0,
+      "opponent_reward": 25108.0,
+      "difference": 4933.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690017,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30041.0,
+      "opponent_reward": 25108.0,
+      "difference": 4933.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690018,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31197.0,
+      "opponent_reward": 27654.0,
+      "difference": 3543.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690018,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31197.0,
+      "opponent_reward": 27654.0,
+      "difference": 3543.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690019,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31466.0,
+      "opponent_reward": 27937.0,
+      "difference": 3529.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690019,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29609.0,
+      "opponent_reward": 26474.0,
+      "difference": 3135.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690020,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30187.0,
+      "opponent_reward": 26479.0,
+      "difference": 3708.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690020,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30187.0,
+      "opponent_reward": 26479.0,
+      "difference": 3708.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690021,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29393.0,
+      "opponent_reward": 26221.0,
+      "difference": 3172.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690021,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29473.0,
+      "opponent_reward": 26145.0,
+      "difference": 3328.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690022,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28875.0,
+      "opponent_reward": 25123.0,
+      "difference": 3752.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690022,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28875.0,
+      "opponent_reward": 25123.0,
+      "difference": 3752.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690023,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 27089.0,
+      "opponent_reward": 24637.0,
+      "difference": 2452.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690023,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 27089.0,
+      "opponent_reward": 24637.0,
+      "difference": 2452.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690024,
+      "position": 0,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 26727.0,
+      "opponent_reward": 23659.0,
+      "difference": 3068.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1690024,
+      "position": 1,
+      "opponent": "V6",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 26727.0,
+      "opponent_reward": 23659.0,
+      "difference": 3068.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691000,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31921.0,
+      "opponent_reward": 25172.0,
+      "difference": 6749.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691000,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31921.0,
+      "opponent_reward": 25172.0,
+      "difference": 6749.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691001,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29094.0,
+      "opponent_reward": 25300.0,
+      "difference": 3794.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691001,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28531.0,
+      "opponent_reward": 23779.0,
+      "difference": 4752.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691002,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28299.0,
+      "opponent_reward": 21821.0,
+      "difference": 6478.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691002,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28299.0,
+      "opponent_reward": 21821.0,
+      "difference": 6478.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691003,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30220.0,
+      "opponent_reward": 25133.0,
+      "difference": 5087.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691003,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30220.0,
+      "opponent_reward": 25133.0,
+      "difference": 5087.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691004,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29121.0,
+      "opponent_reward": 25046.0,
+      "difference": 4075.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691004,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29124.0,
+      "opponent_reward": 24859.0,
+      "difference": 4265.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691005,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30041.0,
+      "opponent_reward": 24446.0,
+      "difference": 5595.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691005,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30041.0,
+      "opponent_reward": 24446.0,
+      "difference": 5595.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691006,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29286.0,
+      "opponent_reward": 24829.0,
+      "difference": 4457.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691006,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29286.0,
+      "opponent_reward": 24829.0,
+      "difference": 4457.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691007,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30225.0,
+      "opponent_reward": 24572.0,
+      "difference": 5653.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691007,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30225.0,
+      "opponent_reward": 24572.0,
+      "difference": 5653.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691008,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30556.0,
+      "opponent_reward": 24532.0,
+      "difference": 6024.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691008,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30556.0,
+      "opponent_reward": 24532.0,
+      "difference": 6024.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691009,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 32087.0,
+      "opponent_reward": 24367.0,
+      "difference": 7720.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691009,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 32087.0,
+      "opponent_reward": 24367.0,
+      "difference": 7720.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691010,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29109.0,
+      "opponent_reward": 23275.0,
+      "difference": 5834.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691010,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29109.0,
+      "opponent_reward": 23275.0,
+      "difference": 5834.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691011,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29325.0,
+      "opponent_reward": 25174.0,
+      "difference": 4151.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691011,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29325.0,
+      "opponent_reward": 25174.0,
+      "difference": 4151.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691012,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30906.0,
+      "opponent_reward": 25030.0,
+      "difference": 5876.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691012,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31204.0,
+      "opponent_reward": 25030.0,
+      "difference": 6174.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691013,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31048.0,
+      "opponent_reward": 24656.0,
+      "difference": 6392.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691013,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31048.0,
+      "opponent_reward": 24656.0,
+      "difference": 6392.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691014,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29414.0,
+      "opponent_reward": 23089.0,
+      "difference": 6325.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691014,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29414.0,
+      "opponent_reward": 23089.0,
+      "difference": 6325.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691015,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30792.0,
+      "opponent_reward": 24526.0,
+      "difference": 6266.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691015,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 30792.0,
+      "opponent_reward": 24526.0,
+      "difference": 6266.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691016,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 25955.0,
+      "opponent_reward": 22200.0,
+      "difference": 3755.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691016,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 25955.0,
+      "opponent_reward": 22200.0,
+      "difference": 3755.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691017,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28235.0,
+      "opponent_reward": 24309.0,
+      "difference": 3926.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691017,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28235.0,
+      "opponent_reward": 24309.0,
+      "difference": 3926.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691018,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29064.0,
+      "opponent_reward": 24072.0,
+      "difference": 4992.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691018,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29064.0,
+      "opponent_reward": 24072.0,
+      "difference": 4992.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691019,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29423.0,
+      "opponent_reward": 23614.0,
+      "difference": 5809.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691019,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29423.0,
+      "opponent_reward": 23614.0,
+      "difference": 5809.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691020,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28810.0,
+      "opponent_reward": 21431.0,
+      "difference": 7379.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691020,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 28810.0,
+      "opponent_reward": 21431.0,
+      "difference": 7379.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691021,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29534.0,
+      "opponent_reward": 24787.0,
+      "difference": 4747.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691021,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29604.0,
+      "opponent_reward": 24535.0,
+      "difference": 5069.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691022,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29676.0,
+      "opponent_reward": 25705.0,
+      "difference": 3971.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691022,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29676.0,
+      "opponent_reward": 25705.0,
+      "difference": 3971.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691023,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29223.0,
+      "opponent_reward": 24435.0,
+      "difference": 4788.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691023,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 29223.0,
+      "opponent_reward": 24435.0,
+      "difference": 4788.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691024,
+      "position": 0,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31385.0,
+      "opponent_reward": 25031.0,
+      "difference": 6354.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1691024,
+      "position": 1,
+      "opponent": "V4",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 31385.0,
+      "opponent_reward": 25031.0,
+      "difference": 6354.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692000,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40616.0,
+      "opponent_reward": 3603.0,
+      "difference": 37013.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692000,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40616.0,
+      "opponent_reward": 3603.0,
+      "difference": 37013.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692001,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40572.0,
+      "opponent_reward": 3644.0,
+      "difference": 36928.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692001,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42191.0,
+      "opponent_reward": 3691.0,
+      "difference": 38500.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692002,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41437.0,
+      "opponent_reward": 3461.0,
+      "difference": 37976.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692002,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41437.0,
+      "opponent_reward": 3461.0,
+      "difference": 37976.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692003,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39498.0,
+      "opponent_reward": 3502.0,
+      "difference": 35996.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692003,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39498.0,
+      "opponent_reward": 3502.0,
+      "difference": 35996.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692004,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39829.0,
+      "opponent_reward": 3650.0,
+      "difference": 36179.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692004,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39829.0,
+      "opponent_reward": 3650.0,
+      "difference": 36179.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692005,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40946.0,
+      "opponent_reward": 3506.0,
+      "difference": 37440.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692005,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40946.0,
+      "opponent_reward": 3506.0,
+      "difference": 37440.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692006,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39933.0,
+      "opponent_reward": 3668.0,
+      "difference": 36265.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692006,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39933.0,
+      "opponent_reward": 3668.0,
+      "difference": 36265.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692007,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40109.0,
+      "opponent_reward": 3648.0,
+      "difference": 36461.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692007,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40109.0,
+      "opponent_reward": 3648.0,
+      "difference": 36461.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692008,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40190.0,
+      "opponent_reward": 3584.0,
+      "difference": 36606.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692008,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39715.0,
+      "opponent_reward": 3579.0,
+      "difference": 36136.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692009,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40928.0,
+      "opponent_reward": 3480.0,
+      "difference": 37448.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692009,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40928.0,
+      "opponent_reward": 3480.0,
+      "difference": 37448.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692010,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41319.0,
+      "opponent_reward": 3564.0,
+      "difference": 37755.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692010,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41298.0,
+      "opponent_reward": 3564.0,
+      "difference": 37734.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692011,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41090.0,
+      "opponent_reward": 3516.0,
+      "difference": 37574.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692011,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41090.0,
+      "opponent_reward": 3516.0,
+      "difference": 37574.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692012,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40849.0,
+      "opponent_reward": 3563.0,
+      "difference": 37286.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692012,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40849.0,
+      "opponent_reward": 3563.0,
+      "difference": 37286.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692013,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41059.0,
+      "opponent_reward": 3507.0,
+      "difference": 37552.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692013,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41059.0,
+      "opponent_reward": 3507.0,
+      "difference": 37552.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692014,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41458.0,
+      "opponent_reward": 3462.0,
+      "difference": 37996.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692014,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41458.0,
+      "opponent_reward": 3462.0,
+      "difference": 37996.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692015,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39233.0,
+      "opponent_reward": 3617.0,
+      "difference": 35616.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692015,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39233.0,
+      "opponent_reward": 3617.0,
+      "difference": 35616.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692016,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39201.0,
+      "opponent_reward": 3627.0,
+      "difference": 35574.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692016,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41031.0,
+      "opponent_reward": 3658.0,
+      "difference": 37373.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692017,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39474.0,
+      "opponent_reward": 3551.0,
+      "difference": 35923.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692017,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39474.0,
+      "opponent_reward": 3551.0,
+      "difference": 35923.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692018,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42573.0,
+      "opponent_reward": 3723.0,
+      "difference": 38850.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692018,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42573.0,
+      "opponent_reward": 3723.0,
+      "difference": 38850.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692019,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41279.0,
+      "opponent_reward": 3482.0,
+      "difference": 37797.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692019,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41279.0,
+      "opponent_reward": 3482.0,
+      "difference": 37797.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692020,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41884.0,
+      "opponent_reward": 3479.0,
+      "difference": 38405.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692020,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 41829.0,
+      "opponent_reward": 3479.0,
+      "difference": 38350.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692021,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40765.0,
+      "opponent_reward": 3586.0,
+      "difference": 37179.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692021,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 40765.0,
+      "opponent_reward": 3586.0,
+      "difference": 37179.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692022,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42369.0,
+      "opponent_reward": 3470.0,
+      "difference": 38899.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692022,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42224.0,
+      "opponent_reward": 3461.0,
+      "difference": 38763.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692023,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42255.0,
+      "opponent_reward": 3643.0,
+      "difference": 38612.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692023,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 42255.0,
+      "opponent_reward": 3643.0,
+      "difference": 38612.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692024,
+      "position": 0,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39760.0,
+      "opponent_reward": 3483.0,
+      "difference": 36277.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    },
+    {
+      "seed": 1692024,
+      "position": 1,
+      "opponent": "starter",
+      "completed": true,
+      "winner": "V9",
+      "v9_reward": 39760.0,
+      "opponent_reward": 3483.0,
+      "difference": 36277.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "error": null
+    }
+  ]
+}

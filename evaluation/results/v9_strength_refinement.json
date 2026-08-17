@@ -1,0 +1,5653 @@
+{
+  "candidates": {
+    "0.075": {
+      "metadata": {
+        "label": "strength-0.075",
+        "config": {
+          "max_hands": 6,
+          "strength": 0.075,
+          "horizon_days": 4
+        },
+        "matched": true,
+        "balanced": true
+      },
+      "summary": {
+        "games": 100,
+        "completed": 100,
+        "v9_wins": 98,
+        "v8_wins": 2,
+        "draws": 0,
+        "decisive_win_rate": 0.98
+      },
+      "confidence_interval": {
+        "lower": 0.929988209271456,
+        "upper": 0.9944980324498376
+      },
+      "position_results": {
+        "0": {
+          "games": 50,
+          "wins": 49,
+          "losses": 1,
+          "draws": 0
+        },
+        "1": {
+          "games": 50,
+          "wins": 49,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "rewards": {
+        "v9": {
+          "mean": 29706.15,
+          "median": 29544.0,
+          "minimum": 25923.0,
+          "maximum": 37412.0,
+          "standard_deviation": 1912.8393836127486
+        },
+        "v8": {
+          "mean": 27141.15,
+          "median": 27189.5,
+          "minimum": 22908.0,
+          "maximum": 32071.0,
+          "standard_deviation": 1592.1437207425718
+        },
+        "difference": {
+          "mean": 2565.0,
+          "median": 2520.0,
+          "minimum": -329.0,
+          "maximum": 5341.0,
+          "standard_deviation": 1218.771102381411
+        }
+      },
+      "operations": {
+        "unsold": 5.34
+      },
+      "reliability": {
+        "completed": 100,
+        "crashes": 0,
+        "timeouts": 0
+      },
+      "timing": {
+        "mean": 0.0014816239361019135,
+        "median": 0.0014220001175999641,
+        "minimum": 0.0005244999192655087,
+        "maximum": 0.11319729988463223,
+        "standard_deviation": 0.0018532454722162356,
+        "p95": 0.0019539999775588512,
+        "p99": 0.0024111999664455652,
+        "over100ms": 1,
+        "over500ms": 0,
+        "decisions": 71900
+      },
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 1290950,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29311.0,
+          "v8_reward": 27979.0,
+          "difference": 1332.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 9
+        },
+        {
+          "index": 1,
+          "seed": 1290950,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29322.0,
+          "v8_reward": 28459.0,
+          "difference": 863.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 9
+        },
+        {
+          "index": 2,
+          "seed": 1290951,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29432.0,
+          "v8_reward": 26669.0,
+          "difference": 2763.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 3,
+          "seed": 1290951,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29432.0,
+          "v8_reward": 26669.0,
+          "difference": 2763.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 4,
+          "seed": 1290952,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29550.0,
+          "v8_reward": 27698.0,
+          "difference": 1852.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 5
+        },
+        {
+          "index": 5,
+          "seed": 1290952,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29550.0,
+          "v8_reward": 27698.0,
+          "difference": 1852.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 5
+        },
+        {
+          "index": 6,
+          "seed": 1290953,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27108.0,
+          "v8_reward": 25294.0,
+          "difference": 1814.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 7,
+          "seed": 1290953,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27108.0,
+          "v8_reward": 25294.0,
+          "difference": 1814.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 8,
+          "seed": 1290954,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25923.0,
+          "v8_reward": 24861.0,
+          "difference": 1062.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 9,
+          "seed": 1290954,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25923.0,
+          "v8_reward": 24861.0,
+          "difference": 1062.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 10,
+          "seed": 1290955,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30168.0,
+          "v8_reward": 28891.0,
+          "difference": 1277.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 11,
+          "seed": 1290955,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30168.0,
+          "v8_reward": 28891.0,
+          "difference": 1277.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 12,
+          "seed": 1290956,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31296.0,
+          "v8_reward": 27592.0,
+          "difference": 3704.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 13,
+          "seed": 1290956,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31296.0,
+          "v8_reward": 27592.0,
+          "difference": 3704.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 14,
+          "seed": 1290957,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30119.0,
+          "v8_reward": 27640.0,
+          "difference": 2479.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 2
+        },
+        {
+          "index": 15,
+          "seed": 1290957,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30119.0,
+          "v8_reward": 27640.0,
+          "difference": 2479.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 2
+        },
+        {
+          "index": 16,
+          "seed": 1290958,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29261.0,
+          "v8_reward": 27259.0,
+          "difference": 2002.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 17,
+          "seed": 1290958,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29261.0,
+          "v8_reward": 27259.0,
+          "difference": 2002.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 18,
+          "seed": 1290959,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28937.0,
+          "v8_reward": 25625.0,
+          "difference": 3312.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 19,
+          "seed": 1290959,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28937.0,
+          "v8_reward": 25625.0,
+          "difference": 3312.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 20,
+          "seed": 1290960,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30681.0,
+          "v8_reward": 28137.0,
+          "difference": 2544.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 21,
+          "seed": 1290960,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30681.0,
+          "v8_reward": 28137.0,
+          "difference": 2544.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 22,
+          "seed": 1290961,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30595.0,
+          "v8_reward": 28588.0,
+          "difference": 2007.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 23,
+          "seed": 1290961,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30595.0,
+          "v8_reward": 28588.0,
+          "difference": 2007.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 24,
+          "seed": 1290962,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28253.0,
+          "v8_reward": 26138.0,
+          "difference": 2115.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 25,
+          "seed": 1290962,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28253.0,
+          "v8_reward": 26138.0,
+          "difference": 2115.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 26,
+          "seed": 1290963,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29518.0,
+          "v8_reward": 26998.0,
+          "difference": 2520.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 27,
+          "seed": 1290963,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29518.0,
+          "v8_reward": 26998.0,
+          "difference": 2520.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 28,
+          "seed": 1290964,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29657.0,
+          "v8_reward": 26311.0,
+          "difference": 3346.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 29,
+          "seed": 1290964,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27143.0,
+          "v8_reward": 25970.0,
+          "difference": 1173.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 30,
+          "seed": 1290965,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31764.0,
+          "v8_reward": 28733.0,
+          "difference": 3031.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 31,
+          "seed": 1290965,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31764.0,
+          "v8_reward": 28733.0,
+          "difference": 3031.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 32,
+          "seed": 1290966,
+          "position": 0,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 27463.0,
+          "v8_reward": 27792.0,
+          "difference": -329.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 33,
+          "seed": 1290966,
+          "position": 1,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 27463.0,
+          "v8_reward": 27792.0,
+          "difference": -329.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 34,
+          "seed": 1290967,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28522.0,
+          "v8_reward": 27264.0,
+          "difference": 1258.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 3
+        },
+        {
+          "index": 35,
+          "seed": 1290967,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28998.0,
+          "v8_reward": 26387.0,
+          "difference": 2611.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 36,
+          "seed": 1290968,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30150.0,
+          "v8_reward": 26076.0,
+          "difference": 4074.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 37,
+          "seed": 1290968,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30151.0,
+          "v8_reward": 26301.0,
+          "difference": 3850.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 38,
+          "seed": 1290969,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30394.0,
+          "v8_reward": 26273.0,
+          "difference": 4121.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 39,
+          "seed": 1290969,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30394.0,
+          "v8_reward": 26273.0,
+          "difference": 4121.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 40,
+          "seed": 1290970,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28602.0,
+          "v8_reward": 27234.0,
+          "difference": 1368.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 41,
+          "seed": 1290970,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28602.0,
+          "v8_reward": 27234.0,
+          "difference": 1368.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 42,
+          "seed": 1290971,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29293.0,
+          "v8_reward": 27034.0,
+          "difference": 2259.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 43,
+          "seed": 1290971,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28583.0,
+          "v8_reward": 26452.0,
+          "difference": 2131.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 44,
+          "seed": 1290972,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31775.0,
+          "v8_reward": 28050.0,
+          "difference": 3725.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 45,
+          "seed": 1290972,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31575.0,
+          "v8_reward": 28885.0,
+          "difference": 2690.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 8
+        },
+        {
+          "index": 46,
+          "seed": 1290973,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31985.0,
+          "v8_reward": 28288.0,
+          "difference": 3697.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 47,
+          "seed": 1290973,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30522.0,
+          "v8_reward": 30309.0,
+          "difference": 213.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 48,
+          "seed": 1290974,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29849.0,
+          "v8_reward": 25711.0,
+          "difference": 4138.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 49,
+          "seed": 1290974,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29337.0,
+          "v8_reward": 25927.0,
+          "difference": 3410.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 50,
+          "seed": 1290975,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28124.0,
+          "v8_reward": 25111.0,
+          "difference": 3013.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 8
+        },
+        {
+          "index": 51,
+          "seed": 1290975,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28003.0,
+          "v8_reward": 25090.0,
+          "difference": 2913.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 52,
+          "seed": 1290976,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30517.0,
+          "v8_reward": 28560.0,
+          "difference": 1957.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 53,
+          "seed": 1290976,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30511.0,
+          "v8_reward": 28851.0,
+          "difference": 1660.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 54,
+          "seed": 1290977,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26064.0,
+          "v8_reward": 24867.0,
+          "difference": 1197.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 10
+        },
+        {
+          "index": 55,
+          "seed": 1290977,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27124.0,
+          "v8_reward": 25487.0,
+          "difference": 1637.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 56,
+          "seed": 1290978,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28982.0,
+          "v8_reward": 25917.0,
+          "difference": 3065.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 57,
+          "seed": 1290978,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27118.0,
+          "v8_reward": 25989.0,
+          "difference": 1129.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 58,
+          "seed": 1290979,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30380.0,
+          "v8_reward": 27197.0,
+          "difference": 3183.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 59,
+          "seed": 1290979,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30380.0,
+          "v8_reward": 27197.0,
+          "difference": 3183.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 60,
+          "seed": 1290980,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29083.0,
+          "v8_reward": 27127.0,
+          "difference": 1956.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 61,
+          "seed": 1290980,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29083.0,
+          "v8_reward": 26940.0,
+          "difference": 2143.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 62,
+          "seed": 1290981,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31376.0,
+          "v8_reward": 28653.0,
+          "difference": 2723.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 63,
+          "seed": 1290981,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31376.0,
+          "v8_reward": 28653.0,
+          "difference": 2723.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 64,
+          "seed": 1290982,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32879.0,
+          "v8_reward": 29297.0,
+          "difference": 3582.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 65,
+          "seed": 1290982,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32879.0,
+          "v8_reward": 29297.0,
+          "difference": 3582.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 66,
+          "seed": 1290983,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29571.0,
+          "v8_reward": 25967.0,
+          "difference": 3604.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 67,
+          "seed": 1290983,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29571.0,
+          "v8_reward": 25967.0,
+          "difference": 3604.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 68,
+          "seed": 1290984,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 37412.0,
+          "v8_reward": 32071.0,
+          "difference": 5341.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 3
+        },
+        {
+          "index": 69,
+          "seed": 1290984,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 37412.0,
+          "v8_reward": 32071.0,
+          "difference": 5341.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 3
+        },
+        {
+          "index": 70,
+          "seed": 1290985,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29188.0,
+          "v8_reward": 27182.0,
+          "difference": 2006.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 71,
+          "seed": 1290985,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30616.0,
+          "v8_reward": 26486.0,
+          "difference": 4130.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 72,
+          "seed": 1290986,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28035.0,
+          "v8_reward": 27242.0,
+          "difference": 793.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 17
+        },
+        {
+          "index": 73,
+          "seed": 1290986,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28035.0,
+          "v8_reward": 27242.0,
+          "difference": 793.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 17
+        },
+        {
+          "index": 74,
+          "seed": 1290987,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32181.0,
+          "v8_reward": 27510.0,
+          "difference": 4671.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 75,
+          "seed": 1290987,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32155.0,
+          "v8_reward": 28119.0,
+          "difference": 4036.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 76,
+          "seed": 1290988,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30870.0,
+          "v8_reward": 30041.0,
+          "difference": 829.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 77,
+          "seed": 1290988,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30870.0,
+          "v8_reward": 30041.0,
+          "difference": 829.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 78,
+          "seed": 1290989,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27645.0,
+          "v8_reward": 22908.0,
+          "difference": 4737.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 3
+        },
+        {
+          "index": 79,
+          "seed": 1290989,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27645.0,
+          "v8_reward": 22908.0,
+          "difference": 4737.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 3
+        },
+        {
+          "index": 80,
+          "seed": 1290990,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28237.0,
+          "v8_reward": 27047.0,
+          "difference": 1190.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 81,
+          "seed": 1290990,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30354.0,
+          "v8_reward": 27707.0,
+          "difference": 2647.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 82,
+          "seed": 1290991,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29913.0,
+          "v8_reward": 26438.0,
+          "difference": 3475.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 83,
+          "seed": 1290991,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31440.0,
+          "v8_reward": 27003.0,
+          "difference": 4437.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 84,
+          "seed": 1290992,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32444.0,
+          "v8_reward": 29011.0,
+          "difference": 3433.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 85,
+          "seed": 1290992,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31270.0,
+          "v8_reward": 28697.0,
+          "difference": 2573.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 86,
+          "seed": 1290993,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29305.0,
+          "v8_reward": 27094.0,
+          "difference": 2211.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 87,
+          "seed": 1290993,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29278.0,
+          "v8_reward": 27174.0,
+          "difference": 2104.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 88,
+          "seed": 1290994,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29954.0,
+          "v8_reward": 27266.0,
+          "difference": 2688.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 89,
+          "seed": 1290994,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30882.0,
+          "v8_reward": 28436.0,
+          "difference": 2446.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 11
+        },
+        {
+          "index": 90,
+          "seed": 1290995,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29538.0,
+          "v8_reward": 26455.0,
+          "difference": 3083.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 3
+        },
+        {
+          "index": 91,
+          "seed": 1290995,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29454.0,
+          "v8_reward": 26892.0,
+          "difference": 2562.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 5
+        },
+        {
+          "index": 92,
+          "seed": 1290996,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26173.0,
+          "v8_reward": 23679.0,
+          "difference": 2494.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 2
+        },
+        {
+          "index": 93,
+          "seed": 1290996,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26173.0,
+          "v8_reward": 23679.0,
+          "difference": 2494.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 2
+        },
+        {
+          "index": 94,
+          "seed": 1290997,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31129.0,
+          "v8_reward": 25843.0,
+          "difference": 5286.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 95,
+          "seed": 1290997,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31129.0,
+          "v8_reward": 25843.0,
+          "difference": 5286.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 96,
+          "seed": 1290998,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29138.0,
+          "v8_reward": 27557.0,
+          "difference": 1581.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 97,
+          "seed": 1290998,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29138.0,
+          "v8_reward": 27557.0,
+          "difference": 1581.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 98,
+          "seed": 1290999,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28140.0,
+          "v8_reward": 26251.0,
+          "difference": 1889.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        },
+        {
+          "index": 99,
+          "seed": 1290999,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28140.0,
+          "v8_reward": 26251.0,
+          "difference": 1889.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 4
+        }
+      ]
+    },
+    "0.1": {
+      "metadata": {
+        "label": "strength-0.1",
+        "config": {
+          "max_hands": 6,
+          "strength": 0.1,
+          "horizon_days": 4
+        },
+        "matched": true,
+        "balanced": true
+      },
+      "summary": {
+        "games": 100,
+        "completed": 100,
+        "v9_wins": 98,
+        "v8_wins": 2,
+        "draws": 0,
+        "decisive_win_rate": 0.98
+      },
+      "confidence_interval": {
+        "lower": 0.929988209271456,
+        "upper": 0.9944980324498376
+      },
+      "position_results": {
+        "0": {
+          "games": 50,
+          "wins": 49,
+          "losses": 1,
+          "draws": 0
+        },
+        "1": {
+          "games": 50,
+          "wins": 49,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "rewards": {
+        "v9": {
+          "mean": 29458.3,
+          "median": 29632.5,
+          "minimum": 25450.0,
+          "maximum": 34794.0,
+          "standard_deviation": 1717.2299816856216
+        },
+        "v8": {
+          "mean": 27133.68,
+          "median": 27312.5,
+          "minimum": 24223.0,
+          "maximum": 32722.0,
+          "standard_deviation": 1318.6203007689514
+        },
+        "difference": {
+          "mean": 2324.62,
+          "median": 2457.0,
+          "minimum": -669.0,
+          "maximum": 4214.0,
+          "standard_deviation": 1066.6584906144983
+        }
+      },
+      "operations": {
+        "unsold": 5.82
+      },
+      "reliability": {
+        "completed": 100,
+        "crashes": 0,
+        "timeouts": 0
+      },
+      "timing": {
+        "mean": 0.001544359671372936,
+        "median": 0.0014476999640464783,
+        "minimum": 0.0005652999971061945,
+        "maximum": 0.2648964000400156,
+        "standard_deviation": 0.0022264285376116253,
+        "p95": 0.0020461000967770815,
+        "p99": 0.0029958998784422874,
+        "over100ms": 1,
+        "over500ms": 0,
+        "decisions": 71900
+      },
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 1291200,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28548.0,
+          "v8_reward": 27478.0,
+          "difference": 1070.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 19
+        },
+        {
+          "index": 1,
+          "seed": 1291200,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28548.0,
+          "v8_reward": 27478.0,
+          "difference": 1070.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 19
+        },
+        {
+          "index": 2,
+          "seed": 1291201,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28306.0,
+          "v8_reward": 26523.0,
+          "difference": 1783.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 3,
+          "seed": 1291201,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28306.0,
+          "v8_reward": 26523.0,
+          "difference": 1783.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 4,
+          "seed": 1291202,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29343.0,
+          "v8_reward": 26374.0,
+          "difference": 2969.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 5,
+          "seed": 1291202,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29343.0,
+          "v8_reward": 26374.0,
+          "difference": 2969.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 6,
+          "seed": 1291203,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28130.0,
+          "v8_reward": 27181.0,
+          "difference": 949.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 17
+        },
+        {
+          "index": 7,
+          "seed": 1291203,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28130.0,
+          "v8_reward": 27181.0,
+          "difference": 949.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 17
+        },
+        {
+          "index": 8,
+          "seed": 1291204,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26982.0,
+          "v8_reward": 24973.0,
+          "difference": 2009.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 9,
+          "seed": 1291204,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26982.0,
+          "v8_reward": 24467.0,
+          "difference": 2515.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 10,
+          "seed": 1291205,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25450.0,
+          "v8_reward": 24642.0,
+          "difference": 808.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 11,
+          "seed": 1291205,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25450.0,
+          "v8_reward": 24642.0,
+          "difference": 808.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 12,
+          "seed": 1291206,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30962.0,
+          "v8_reward": 27724.0,
+          "difference": 3238.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 13,
+          "seed": 1291206,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30962.0,
+          "v8_reward": 27724.0,
+          "difference": 3238.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 14,
+          "seed": 1291207,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29301.0,
+          "v8_reward": 26930.0,
+          "difference": 2371.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 15,
+          "seed": 1291207,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29301.0,
+          "v8_reward": 26930.0,
+          "difference": 2371.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 16,
+          "seed": 1291208,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29625.0,
+          "v8_reward": 28127.0,
+          "difference": 1498.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 17,
+          "seed": 1291208,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29625.0,
+          "v8_reward": 28127.0,
+          "difference": 1498.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 18,
+          "seed": 1291209,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30716.0,
+          "v8_reward": 27244.0,
+          "difference": 3472.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 2
+        },
+        {
+          "index": 19,
+          "seed": 1291209,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31929.0,
+          "v8_reward": 27871.0,
+          "difference": 4058.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 20,
+          "seed": 1291210,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29926.0,
+          "v8_reward": 26450.0,
+          "difference": 3476.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 21,
+          "seed": 1291210,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29926.0,
+          "v8_reward": 26450.0,
+          "difference": 3476.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 22,
+          "seed": 1291211,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29569.0,
+          "v8_reward": 26561.0,
+          "difference": 3008.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 23,
+          "seed": 1291211,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28655.0,
+          "v8_reward": 25906.0,
+          "difference": 2749.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 24,
+          "seed": 1291212,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30303.0,
+          "v8_reward": 28062.0,
+          "difference": 2241.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 25,
+          "seed": 1291212,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30452.0,
+          "v8_reward": 27339.0,
+          "difference": 3113.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 26,
+          "seed": 1291213,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30601.0,
+          "v8_reward": 28226.0,
+          "difference": 2375.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 2
+        },
+        {
+          "index": 27,
+          "seed": 1291213,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30601.0,
+          "v8_reward": 28226.0,
+          "difference": 2375.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 2
+        },
+        {
+          "index": 28,
+          "seed": 1291214,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30990.0,
+          "v8_reward": 28003.0,
+          "difference": 2987.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 2
+        },
+        {
+          "index": 29,
+          "seed": 1291214,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30990.0,
+          "v8_reward": 28003.0,
+          "difference": 2987.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 2
+        },
+        {
+          "index": 30,
+          "seed": 1291215,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29280.0,
+          "v8_reward": 27412.0,
+          "difference": 1868.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 4
+        },
+        {
+          "index": 31,
+          "seed": 1291215,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29280.0,
+          "v8_reward": 27412.0,
+          "difference": 1868.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 4
+        },
+        {
+          "index": 32,
+          "seed": 1291216,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29912.0,
+          "v8_reward": 27889.0,
+          "difference": 2023.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 2
+        },
+        {
+          "index": 33,
+          "seed": 1291216,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29912.0,
+          "v8_reward": 27889.0,
+          "difference": 2023.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 2
+        },
+        {
+          "index": 34,
+          "seed": 1291217,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30321.0,
+          "v8_reward": 28337.0,
+          "difference": 1984.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 35,
+          "seed": 1291217,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29640.0,
+          "v8_reward": 27586.0,
+          "difference": 2054.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 36,
+          "seed": 1291218,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27237.0,
+          "v8_reward": 26907.0,
+          "difference": 330.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 37,
+          "seed": 1291218,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27237.0,
+          "v8_reward": 26907.0,
+          "difference": 330.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 38,
+          "seed": 1291219,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30536.0,
+          "v8_reward": 27047.0,
+          "difference": 3489.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 7
+        },
+        {
+          "index": 39,
+          "seed": 1291219,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30536.0,
+          "v8_reward": 27047.0,
+          "difference": 3489.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 7
+        },
+        {
+          "index": 40,
+          "seed": 1291220,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28463.0,
+          "v8_reward": 25608.0,
+          "difference": 2855.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 41,
+          "seed": 1291220,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28463.0,
+          "v8_reward": 25608.0,
+          "difference": 2855.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 42,
+          "seed": 1291221,
+          "position": 0,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 27214.0,
+          "v8_reward": 27883.0,
+          "difference": -669.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 43,
+          "seed": 1291221,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27724.0,
+          "v8_reward": 25173.0,
+          "difference": 2551.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 8
+        },
+        {
+          "index": 44,
+          "seed": 1291222,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28549.0,
+          "v8_reward": 28250.0,
+          "difference": 299.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 10
+        },
+        {
+          "index": 45,
+          "seed": 1291222,
+          "position": 1,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 28589.0,
+          "v8_reward": 28614.0,
+          "difference": -25.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 46,
+          "seed": 1291223,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30983.0,
+          "v8_reward": 27254.0,
+          "difference": 3729.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 47,
+          "seed": 1291223,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30983.0,
+          "v8_reward": 27254.0,
+          "difference": 3729.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 48,
+          "seed": 1291224,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28114.0,
+          "v8_reward": 25657.0,
+          "difference": 2457.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 4
+        },
+        {
+          "index": 49,
+          "seed": 1291224,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28114.0,
+          "v8_reward": 25657.0,
+          "difference": 2457.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 4
+        },
+        {
+          "index": 50,
+          "seed": 1291225,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25746.0,
+          "v8_reward": 25107.0,
+          "difference": 639.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 10
+        },
+        {
+          "index": 51,
+          "seed": 1291225,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25746.0,
+          "v8_reward": 25107.0,
+          "difference": 639.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 10
+        },
+        {
+          "index": 52,
+          "seed": 1291226,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29747.0,
+          "v8_reward": 27629.0,
+          "difference": 2118.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 53,
+          "seed": 1291226,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30124.0,
+          "v8_reward": 27808.0,
+          "difference": 2316.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 54,
+          "seed": 1291227,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27201.0,
+          "v8_reward": 26023.0,
+          "difference": 1178.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 18
+        },
+        {
+          "index": 55,
+          "seed": 1291227,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27201.0,
+          "v8_reward": 26023.0,
+          "difference": 1178.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 18
+        },
+        {
+          "index": 56,
+          "seed": 1291228,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29968.0,
+          "v8_reward": 28071.0,
+          "difference": 1897.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 11
+        },
+        {
+          "index": 57,
+          "seed": 1291228,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28732.0,
+          "v8_reward": 28072.0,
+          "difference": 660.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 24
+        },
+        {
+          "index": 58,
+          "seed": 1291229,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26383.0,
+          "v8_reward": 25807.0,
+          "difference": 576.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 59,
+          "seed": 1291229,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26383.0,
+          "v8_reward": 25807.0,
+          "difference": 576.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 60,
+          "seed": 1291230,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31545.0,
+          "v8_reward": 28574.0,
+          "difference": 2971.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 61,
+          "seed": 1291230,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31545.0,
+          "v8_reward": 28574.0,
+          "difference": 2971.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 62,
+          "seed": 1291231,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31924.0,
+          "v8_reward": 27710.0,
+          "difference": 4214.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 63,
+          "seed": 1291231,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31924.0,
+          "v8_reward": 27710.0,
+          "difference": 4214.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 64,
+          "seed": 1291232,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26854.0,
+          "v8_reward": 25122.0,
+          "difference": 1732.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 65,
+          "seed": 1291232,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26854.0,
+          "v8_reward": 25122.0,
+          "difference": 1732.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 66,
+          "seed": 1291233,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30831.0,
+          "v8_reward": 27457.0,
+          "difference": 3374.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 67,
+          "seed": 1291233,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30831.0,
+          "v8_reward": 27457.0,
+          "difference": 3374.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 68,
+          "seed": 1291234,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30386.0,
+          "v8_reward": 27420.0,
+          "difference": 2966.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 69,
+          "seed": 1291234,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30386.0,
+          "v8_reward": 27420.0,
+          "difference": 2966.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 70,
+          "seed": 1291235,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31329.0,
+          "v8_reward": 27842.0,
+          "difference": 3487.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 71,
+          "seed": 1291235,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31329.0,
+          "v8_reward": 27842.0,
+          "difference": 3487.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 72,
+          "seed": 1291236,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28192.0,
+          "v8_reward": 25127.0,
+          "difference": 3065.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 73,
+          "seed": 1291236,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27652.0,
+          "v8_reward": 25106.0,
+          "difference": 2546.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 74,
+          "seed": 1291237,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29181.0,
+          "v8_reward": 27613.0,
+          "difference": 1568.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 9
+        },
+        {
+          "index": 75,
+          "seed": 1291237,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29181.0,
+          "v8_reward": 27613.0,
+          "difference": 1568.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 9
+        },
+        {
+          "index": 76,
+          "seed": 1291238,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 34794.0,
+          "v8_reward": 32722.0,
+          "difference": 2072.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 77,
+          "seed": 1291238,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30274.0,
+          "v8_reward": 27108.0,
+          "difference": 3166.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 78,
+          "seed": 1291239,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29740.0,
+          "v8_reward": 26679.0,
+          "difference": 3061.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 79,
+          "seed": 1291239,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29740.0,
+          "v8_reward": 26679.0,
+          "difference": 3061.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 80,
+          "seed": 1291240,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29870.0,
+          "v8_reward": 28778.0,
+          "difference": 1092.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 81,
+          "seed": 1291240,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30205.0,
+          "v8_reward": 28777.0,
+          "difference": 1428.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 82,
+          "seed": 1291241,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29454.0,
+          "v8_reward": 27898.0,
+          "difference": 1556.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 83,
+          "seed": 1291241,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30297.0,
+          "v8_reward": 27286.0,
+          "difference": 3011.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 84,
+          "seed": 1291242,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28960.0,
+          "v8_reward": 27149.0,
+          "difference": 1811.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 85,
+          "seed": 1291242,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28960.0,
+          "v8_reward": 27149.0,
+          "difference": 1811.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 86,
+          "seed": 1291243,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31643.0,
+          "v8_reward": 29100.0,
+          "difference": 2543.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 3
+        },
+        {
+          "index": 87,
+          "seed": 1291243,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31643.0,
+          "v8_reward": 29100.0,
+          "difference": 2543.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 3
+        },
+        {
+          "index": 88,
+          "seed": 1291244,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28022.0,
+          "v8_reward": 24223.0,
+          "difference": 3799.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 89,
+          "seed": 1291244,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28022.0,
+          "v8_reward": 24223.0,
+          "difference": 3799.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 90,
+          "seed": 1291245,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32000.0,
+          "v8_reward": 28315.0,
+          "difference": 3685.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 91,
+          "seed": 1291245,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32000.0,
+          "v8_reward": 28315.0,
+          "difference": 3685.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 92,
+          "seed": 1291246,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30920.0,
+          "v8_reward": 26913.0,
+          "difference": 4007.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 93,
+          "seed": 1291246,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30920.0,
+          "v8_reward": 26913.0,
+          "difference": 4007.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 94,
+          "seed": 1291247,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32164.0,
+          "v8_reward": 29442.0,
+          "difference": 2722.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 95,
+          "seed": 1291247,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 32164.0,
+          "v8_reward": 29442.0,
+          "difference": 2722.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 96,
+          "seed": 1291248,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29210.0,
+          "v8_reward": 26656.0,
+          "difference": 2554.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 97,
+          "seed": 1291248,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29210.0,
+          "v8_reward": 26656.0,
+          "difference": 2554.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 98,
+          "seed": 1291249,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29702.0,
+          "v8_reward": 27776.0,
+          "difference": 1926.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 99,
+          "seed": 1291249,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29702.0,
+          "v8_reward": 27776.0,
+          "difference": 1926.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        }
+      ]
+    },
+    "0.125": {
+      "metadata": {
+        "label": "strength-0.125",
+        "config": {
+          "max_hands": 6,
+          "strength": 0.125,
+          "horizon_days": 4
+        },
+        "matched": true,
+        "balanced": true
+      },
+      "summary": {
+        "games": 100,
+        "completed": 100,
+        "v9_wins": 97,
+        "v8_wins": 3,
+        "draws": 0,
+        "decisive_win_rate": 0.97
+      },
+      "confidence_interval": {
+        "lower": 0.9154806357094724,
+        "upper": 0.9897454759759611
+      },
+      "position_results": {
+        "0": {
+          "games": 50,
+          "wins": 48,
+          "losses": 2,
+          "draws": 0
+        },
+        "1": {
+          "games": 50,
+          "wins": 49,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "rewards": {
+        "v9": {
+          "mean": 29486.49,
+          "median": 29546.0,
+          "minimum": 24345.0,
+          "maximum": 34075.0,
+          "standard_deviation": 1631.9688507750386
+        },
+        "v8": {
+          "mean": 26808.74,
+          "median": 26983.0,
+          "minimum": 22702.0,
+          "maximum": 30349.0,
+          "standard_deviation": 1542.1651897251475
+        },
+        "difference": {
+          "mean": 2677.75,
+          "median": 2620.0,
+          "minimum": -991.0,
+          "maximum": 5336.0,
+          "standard_deviation": 1289.5830673128428
+        }
+      },
+      "operations": {
+        "unsold": 5.9
+      },
+      "reliability": {
+        "completed": 100,
+        "crashes": 0,
+        "timeouts": 0
+      },
+      "timing": {
+        "mean": 0.0016662596730238166,
+        "median": 0.001524799969047308,
+        "minimum": 0.0005991999059915543,
+        "maximum": 0.15173439984209836,
+        "standard_deviation": 0.0024147847436019154,
+        "p95": 0.002461099997162819,
+        "p99": 0.0032826000824570656,
+        "over100ms": 3,
+        "over500ms": 0,
+        "decisions": 71900
+      },
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 1291450,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30842.0,
+          "v8_reward": 28425.0,
+          "difference": 2417.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 1,
+          "seed": 1291450,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30842.0,
+          "v8_reward": 28425.0,
+          "difference": 2417.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 2,
+          "seed": 1291451,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29302.0,
+          "v8_reward": 25200.0,
+          "difference": 4102.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 3,
+          "seed": 1291451,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29302.0,
+          "v8_reward": 25200.0,
+          "difference": 4102.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 4,
+          "seed": 1291452,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25251.0,
+          "v8_reward": 22896.0,
+          "difference": 2355.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 17
+        },
+        {
+          "index": 5,
+          "seed": 1291452,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 25251.0,
+          "v8_reward": 22896.0,
+          "difference": 2355.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 17
+        },
+        {
+          "index": 6,
+          "seed": 1291453,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29127.0,
+          "v8_reward": 27143.0,
+          "difference": 1984.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 7,
+          "seed": 1291453,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29127.0,
+          "v8_reward": 27143.0,
+          "difference": 1984.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 8,
+          "seed": 1291454,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30729.0,
+          "v8_reward": 28530.0,
+          "difference": 2199.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 9,
+          "seed": 1291454,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29759.0,
+          "v8_reward": 28133.0,
+          "difference": 1626.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 10,
+          "seed": 1291455,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30499.0,
+          "v8_reward": 27412.0,
+          "difference": 3087.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 11,
+          "seed": 1291455,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30499.0,
+          "v8_reward": 27412.0,
+          "difference": 3087.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 12,
+          "seed": 1291456,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28207.0,
+          "v8_reward": 25187.0,
+          "difference": 3020.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 13,
+          "seed": 1291456,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28207.0,
+          "v8_reward": 25187.0,
+          "difference": 3020.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 14,
+          "seed": 1291457,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29887.0,
+          "v8_reward": 26544.0,
+          "difference": 3343.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 15,
+          "seed": 1291457,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29887.0,
+          "v8_reward": 26544.0,
+          "difference": 3343.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 16,
+          "seed": 1291458,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29925.0,
+          "v8_reward": 28380.0,
+          "difference": 1545.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 17,
+          "seed": 1291458,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30023.0,
+          "v8_reward": 28283.0,
+          "difference": 1740.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 18,
+          "seed": 1291459,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27792.0,
+          "v8_reward": 25867.0,
+          "difference": 1925.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 19,
+          "seed": 1291459,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27792.0,
+          "v8_reward": 25867.0,
+          "difference": 1925.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 20,
+          "seed": 1291460,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28739.0,
+          "v8_reward": 25174.0,
+          "difference": 3565.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 21,
+          "seed": 1291460,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28210.0,
+          "v8_reward": 26123.0,
+          "difference": 2087.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 22,
+          "seed": 1291461,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30572.0,
+          "v8_reward": 27593.0,
+          "difference": 2979.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 23,
+          "seed": 1291461,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30572.0,
+          "v8_reward": 27593.0,
+          "difference": 2979.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 24,
+          "seed": 1291462,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31498.0,
+          "v8_reward": 28329.0,
+          "difference": 3169.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 25,
+          "seed": 1291462,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31498.0,
+          "v8_reward": 28329.0,
+          "difference": 3169.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 26,
+          "seed": 1291463,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31831.0,
+          "v8_reward": 27922.0,
+          "difference": 3909.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 6
+        },
+        {
+          "index": 27,
+          "seed": 1291463,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31831.0,
+          "v8_reward": 27922.0,
+          "difference": 3909.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 6
+        },
+        {
+          "index": 28,
+          "seed": 1291464,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30488.0,
+          "v8_reward": 29315.0,
+          "difference": 1173.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 29,
+          "seed": 1291464,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30488.0,
+          "v8_reward": 29315.0,
+          "difference": 1173.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 30,
+          "seed": 1291465,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28678.0,
+          "v8_reward": 26534.0,
+          "difference": 2144.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 31,
+          "seed": 1291465,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29092.0,
+          "v8_reward": 26525.0,
+          "difference": 2567.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 32,
+          "seed": 1291466,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30153.0,
+          "v8_reward": 27351.0,
+          "difference": 2802.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 33,
+          "seed": 1291466,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30153.0,
+          "v8_reward": 27276.0,
+          "difference": 2877.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 34,
+          "seed": 1291467,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31211.0,
+          "v8_reward": 27319.0,
+          "difference": 3892.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 35,
+          "seed": 1291467,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31211.0,
+          "v8_reward": 27319.0,
+          "difference": 3892.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 36,
+          "seed": 1291468,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31558.0,
+          "v8_reward": 26437.0,
+          "difference": 5121.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 37,
+          "seed": 1291468,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31558.0,
+          "v8_reward": 26437.0,
+          "difference": 5121.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 38,
+          "seed": 1291469,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28483.0,
+          "v8_reward": 25991.0,
+          "difference": 2492.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 5
+        },
+        {
+          "index": 39,
+          "seed": 1291469,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28483.0,
+          "v8_reward": 25991.0,
+          "difference": 2492.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 5
+        },
+        {
+          "index": 40,
+          "seed": 1291470,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30151.0,
+          "v8_reward": 26043.0,
+          "difference": 4108.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 41,
+          "seed": 1291470,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30154.0,
+          "v8_reward": 25231.0,
+          "difference": 4923.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 42,
+          "seed": 1291471,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29904.0,
+          "v8_reward": 27811.0,
+          "difference": 2093.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 5,
+          "hires_today": 5,
+          "unsold": 2
+        },
+        {
+          "index": 43,
+          "seed": 1291471,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30099.0,
+          "v8_reward": 28395.0,
+          "difference": 1704.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 4
+        },
+        {
+          "index": 44,
+          "seed": 1291472,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31465.0,
+          "v8_reward": 26768.0,
+          "difference": 4697.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 45,
+          "seed": 1291472,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31465.0,
+          "v8_reward": 26768.0,
+          "difference": 4697.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 46,
+          "seed": 1291473,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 34075.0,
+          "v8_reward": 30349.0,
+          "difference": 3726.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 47,
+          "seed": 1291473,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 34075.0,
+          "v8_reward": 30349.0,
+          "difference": 3726.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 48,
+          "seed": 1291474,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29184.0,
+          "v8_reward": 28483.0,
+          "difference": 701.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 49,
+          "seed": 1291474,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30436.0,
+          "v8_reward": 28146.0,
+          "difference": 2290.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 50,
+          "seed": 1291475,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29657.0,
+          "v8_reward": 25304.0,
+          "difference": 4353.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 51,
+          "seed": 1291475,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29903.0,
+          "v8_reward": 25676.0,
+          "difference": 4227.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 52,
+          "seed": 1291476,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31015.0,
+          "v8_reward": 27363.0,
+          "difference": 3652.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 53,
+          "seed": 1291476,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31015.0,
+          "v8_reward": 27363.0,
+          "difference": 3652.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 54,
+          "seed": 1291477,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26854.0,
+          "v8_reward": 23089.0,
+          "difference": 3765.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 55,
+          "seed": 1291477,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26986.0,
+          "v8_reward": 25390.0,
+          "difference": 1596.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 56,
+          "seed": 1291478,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30117.0,
+          "v8_reward": 27860.0,
+          "difference": 2257.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 57,
+          "seed": 1291478,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28924.0,
+          "v8_reward": 28245.0,
+          "difference": 679.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 23
+        },
+        {
+          "index": 58,
+          "seed": 1291479,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29498.0,
+          "v8_reward": 24358.0,
+          "difference": 5140.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 59,
+          "seed": 1291479,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29299.0,
+          "v8_reward": 25806.0,
+          "difference": 3493.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 60,
+          "seed": 1291480,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28459.0,
+          "v8_reward": 26536.0,
+          "difference": 1923.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 61,
+          "seed": 1291480,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28459.0,
+          "v8_reward": 26536.0,
+          "difference": 1923.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 62,
+          "seed": 1291481,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30808.0,
+          "v8_reward": 28178.0,
+          "difference": 2630.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 63,
+          "seed": 1291481,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30020.0,
+          "v8_reward": 28650.0,
+          "difference": 1370.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 12
+        },
+        {
+          "index": 64,
+          "seed": 1291482,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30646.0,
+          "v8_reward": 27636.0,
+          "difference": 3010.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 3,
+          "hires_today": 3,
+          "unsold": 3
+        },
+        {
+          "index": 65,
+          "seed": 1291482,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29346.0,
+          "v8_reward": 27012.0,
+          "difference": 2334.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 3
+        },
+        {
+          "index": 66,
+          "seed": 1291483,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29581.0,
+          "v8_reward": 26763.0,
+          "difference": 2818.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 67,
+          "seed": 1291483,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29581.0,
+          "v8_reward": 26763.0,
+          "difference": 2818.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 68,
+          "seed": 1291484,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28505.0,
+          "v8_reward": 26954.0,
+          "difference": 1551.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 2
+        },
+        {
+          "index": 69,
+          "seed": 1291484,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28505.0,
+          "v8_reward": 26954.0,
+          "difference": 1551.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 4,
+          "hires_today": 4,
+          "unsold": 2
+        },
+        {
+          "index": 70,
+          "seed": 1291485,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28365.0,
+          "v8_reward": 26348.0,
+          "difference": 2017.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 71,
+          "seed": 1291485,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28365.0,
+          "v8_reward": 26348.0,
+          "difference": 2017.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 72,
+          "seed": 1291486,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29794.0,
+          "v8_reward": 26035.0,
+          "difference": 3759.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 73,
+          "seed": 1291486,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29996.0,
+          "v8_reward": 25782.0,
+          "difference": 4214.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 74,
+          "seed": 1291487,
+          "position": 0,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 27189.0,
+          "v8_reward": 28180.0,
+          "difference": -991.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 75,
+          "seed": 1291487,
+          "position": 1,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 27189.0,
+          "v8_reward": 28180.0,
+          "difference": -991.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 16
+        },
+        {
+          "index": 76,
+          "seed": 1291488,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28044.0,
+          "v8_reward": 24186.0,
+          "difference": 3858.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 77,
+          "seed": 1291488,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 28044.0,
+          "v8_reward": 24186.0,
+          "difference": 3858.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 78,
+          "seed": 1291489,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 30959.0,
+          "v8_reward": 27429.0,
+          "difference": 3530.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 9
+        },
+        {
+          "index": 79,
+          "seed": 1291489,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29527.0,
+          "v8_reward": 27163.0,
+          "difference": 2364.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 20
+        },
+        {
+          "index": 80,
+          "seed": 1291490,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31810.0,
+          "v8_reward": 26474.0,
+          "difference": 5336.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 81,
+          "seed": 1291490,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31324.0,
+          "v8_reward": 28353.0,
+          "difference": 2971.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 82,
+          "seed": 1291491,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29565.0,
+          "v8_reward": 28045.0,
+          "difference": 1520.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 8
+        },
+        {
+          "index": 83,
+          "seed": 1291491,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29106.0,
+          "v8_reward": 28528.0,
+          "difference": 578.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 11
+        },
+        {
+          "index": 84,
+          "seed": 1291492,
+          "position": 0,
+          "completed": true,
+          "winner": "V8",
+          "v9_reward": 24345.0,
+          "v8_reward": 24587.0,
+          "difference": -242.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 23
+        },
+        {
+          "index": 85,
+          "seed": 1291492,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 26020.0,
+          "v8_reward": 25475.0,
+          "difference": 545.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 2
+        },
+        {
+          "index": 86,
+          "seed": 1291493,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29499.0,
+          "v8_reward": 27938.0,
+          "difference": 1561.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 87,
+          "seed": 1291493,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29499.0,
+          "v8_reward": 27938.0,
+          "difference": 1561.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 4
+        },
+        {
+          "index": 88,
+          "seed": 1291494,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27313.0,
+          "v8_reward": 22702.0,
+          "difference": 4611.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 89,
+          "seed": 1291494,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27313.0,
+          "v8_reward": 22702.0,
+          "difference": 4611.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 5
+        },
+        {
+          "index": 90,
+          "seed": 1291495,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29111.0,
+          "v8_reward": 27290.0,
+          "difference": 1821.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 91,
+          "seed": 1291495,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29111.0,
+          "v8_reward": 27290.0,
+          "difference": 1821.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 3
+        },
+        {
+          "index": 92,
+          "seed": 1291496,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27696.0,
+          "v8_reward": 26342.0,
+          "difference": 1354.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 10
+        },
+        {
+          "index": 93,
+          "seed": 1291496,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27696.0,
+          "v8_reward": 26342.0,
+          "difference": 1354.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 10
+        },
+        {
+          "index": 94,
+          "seed": 1291497,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29359.0,
+          "v8_reward": 26112.0,
+          "difference": 3247.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 7
+        },
+        {
+          "index": 95,
+          "seed": 1291497,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 31103.0,
+          "v8_reward": 27663.0,
+          "difference": 3440.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 96,
+          "seed": 1291498,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29292.0,
+          "v8_reward": 28134.0,
+          "difference": 1158.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 11
+        },
+        {
+          "index": 97,
+          "seed": 1291498,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 29292.0,
+          "v8_reward": 28134.0,
+          "difference": 1158.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 11
+        },
+        {
+          "index": 98,
+          "seed": 1291499,
+          "position": 0,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27990.0,
+          "v8_reward": 25370.0,
+          "difference": 2620.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        },
+        {
+          "index": 99,
+          "seed": 1291499,
+          "position": 1,
+          "completed": true,
+          "winner": "V9",
+          "v9_reward": 27990.0,
+          "v8_reward": 25370.0,
+          "difference": 2620.0,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "error": null,
+          "hands_final": 6,
+          "hires_today": 6,
+          "unsold": 6
+        }
+      ]
+    }
+  }
+}
