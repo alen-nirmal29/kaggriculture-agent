@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "phase": "V7 holding threshold sweep",
+    "status": "SKIPPED",
+    "reason": "SELL_INTELLIGENCE and FULL_INTELLIGENCE held zero units in their 100-game mode sweeps; changing a threshold for behavior that never triggered was not justified."
+  },
+  "thresholds": {}
+}
