@@ -1,0 +1,9 @@
+{
+  "status": "SKIPPED",
+  "reason": "No land-enabled policy improved on frozen V4. Max-expansion policies 1, 2, and 3 each lost 100/100 and averaged -3743.98 reward difference after buying one quadrant. Capacity refinement was gated on selecting a useful expansion policy, so fabricating expanded-capacity candidates would violate the experiment design.",
+  "selected_policy": {
+    "max_expansions": 0,
+    "managed_capacity": 24,
+    "equivalent_to": "V4"
+  }
+}

@@ -1,0 +1,3172 @@
+{
+  "metadata": {
+    "label": "V5-0-vs-V4",
+    "matched_seeds": true,
+    "balanced_positions": true,
+    "v4_frozen": true
+  },
+  "summary": {
+    "games": 100,
+    "completed": 100,
+    "v5_wins": 23,
+    "v4_wins": 23,
+    "draws": 54,
+    "decisive_win_rate": 0.5
+  },
+  "position_results": {
+    "0": {
+      "games": 50,
+      "wins": 12,
+      "losses": 11,
+      "draws": 27,
+      "win_rate": 0.24
+    },
+    "1": {
+      "games": 50,
+      "wins": 11,
+      "losses": 12,
+      "draws": 27,
+      "win_rate": 0.22
+    }
+  },
+  "confidence_interval": {
+    "lower": 0.3611893708270325,
+    "upper": 0.6388106291729675
+  },
+  "rewards": {
+    "v5": {
+      "mean": 24447.95,
+      "median": 24426.5,
+      "minimum": 21017.0,
+      "maximum": 35553.0,
+      "standard_deviation": 2107.5555099451117
+    },
+    "v4": {
+      "mean": 24447.95,
+      "median": 24426.5,
+      "minimum": 21017.0,
+      "maximum": 35553.0,
+      "standard_deviation": 2107.5555099451117
+    },
+    "difference": {
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": -2514.0,
+      "maximum": 2514.0,
+      "standard_deviation": 454.8351569524942
+    }
+  },
+  "land": {
+    "expansions": {
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "standard_deviation": 0.0
+    },
+    "distribution": {
+      "0": 100,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "purchase_turns": {
+      "0": {
+        "mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "standard_deviation": null
+      },
+      "1": {
+        "mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "standard_deviation": null
+      },
+      "2": {
+        "mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "standard_deviation": null
+      }
+    },
+    "spend": {
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "standard_deviation": 0.0
+    },
+    "managed_plots": {
+      "mean": 24.0
+    }
+  },
+  "workers": {
+    "utilization": 0.8786510954653677,
+    "idle": {
+      "mean": 332.82,
+      "median": 324.0,
+      "minimum": 278.0,
+      "maximum": 439.0,
+      "standard_deviation": 36.60392875088684
+    },
+    "productive": {
+      "mean": 653.21,
+      "median": 654.0,
+      "minimum": 631.0,
+      "maximum": 677.0,
+      "standard_deviation": 11.707514680750991
+    }
+  },
+  "operations": {
+    "mature": {
+      "mean": 4119.86,
+      "median": 4293.0,
+      "minimum": 3187.0,
+      "maximum": 5384.0,
+      "standard_deviation": 447.50526298581116
+    },
+    "unwatered": {
+      "mean": 20.7,
+      "median": 21.0,
+      "minimum": 12.0,
+      "maximum": 30.0,
+      "standard_deviation": 4.4034077712608
+    },
+    "weed": {
+      "mean": 217.64,
+      "median": 208.0,
+      "minimum": 38.0,
+      "maximum": 395.0,
+      "standard_deviation": 73.7698474988257
+    },
+    "unsold": {
+      "mean": 0.75,
+      "median": 0.0,
+      "minimum": 0.0,
+      "maximum": 19.0,
+      "standard_deviation": 2.882273408266468
+    }
+  },
+  "reliability": {
+    "attempted": 100,
+    "completed": 100,
+    "crashes": 0,
+    "timeouts": 0
+  },
+  "timing": {
+    "mean": 0.0004981052583622357,
+    "median": 0.0004075001925230026,
+    "minimum": 0.0001789000816643238,
+    "maximum": 0.09214369999244809,
+    "standard_deviation": 0.0010954361994193489,
+    "decisions": 71900,
+    "over100ms": 0,
+    "over500ms": 0
+  },
+  "episodes": [
+    {
+      "game_index": 0,
+      "seed": 860000,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24846.0,
+      "v4_reward": 24493.0,
+      "difference": 353.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2472,
+        "idle": 280,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 4127,
+        "unwatered": 22,
+        "weed": 231,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 1,
+      "seed": 860000,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24493.0,
+      "v4_reward": 24846.0,
+      "difference": -353.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2474,
+        "idle": 278,
+        "productive": 656
+      },
+      "indicators": {
+        "mature": 4169,
+        "unwatered": 24,
+        "weed": 201,
+        "unsold": 9
+      }
+    },
+    {
+      "game_index": 2,
+      "seed": 860001,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24026.0,
+      "v4_reward": 24026.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2708,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 118,
+        "nonidle": 2372,
+        "idle": 336,
+        "productive": 645
+      },
+      "indicators": {
+        "mature": 4296,
+        "unwatered": 24,
+        "weed": 176,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 3,
+      "seed": 860001,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24026.0,
+      "v4_reward": 24026.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2708,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 118,
+        "nonidle": 2372,
+        "idle": 336,
+        "productive": 645
+      },
+      "indicators": {
+        "mature": 4296,
+        "unwatered": 24,
+        "weed": 199,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 4,
+      "seed": 860002,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 22793.0,
+      "v4_reward": 22793.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2663,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 116,
+        "nonidle": 2269,
+        "idle": 394,
+        "productive": 634
+      },
+      "indicators": {
+        "mature": 3482,
+        "unwatered": 18,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 5,
+      "seed": 860002,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 22793.0,
+      "v4_reward": 22793.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2663,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 116,
+        "nonidle": 2269,
+        "idle": 394,
+        "productive": 634
+      },
+      "indicators": {
+        "mature": 3482,
+        "unwatered": 18,
+        "weed": 201,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 6,
+      "seed": 860003,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 25197.0,
+      "v4_reward": 25799.0,
+      "difference": -602.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2685,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 117,
+        "nonidle": 2352,
+        "idle": 333,
+        "productive": 636
+      },
+      "indicators": {
+        "mature": 3572,
+        "unwatered": 21,
+        "weed": 302,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 7,
+      "seed": 860003,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 25799.0,
+      "v4_reward": 25197.0,
+      "difference": 602.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2393,
+        "idle": 359,
+        "productive": 650
+      },
+      "indicators": {
+        "mature": 3660,
+        "unwatered": 22,
+        "weed": 395,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 8,
+      "seed": 860004,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 22181.0,
+      "v4_reward": 21667.0,
+      "difference": 514.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2730,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 119,
+        "nonidle": 2368,
+        "idle": 362,
+        "productive": 644
+      },
+      "indicators": {
+        "mature": 3306,
+        "unwatered": 15,
+        "weed": 251,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 9,
+      "seed": 860004,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 21667.0,
+      "v4_reward": 22181.0,
+      "difference": -514.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2347,
+        "idle": 405,
+        "productive": 645
+      },
+      "indicators": {
+        "mature": 3499,
+        "unwatered": 15,
+        "weed": 175,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 10,
+      "seed": 860005,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24007.0,
+      "v4_reward": 24007.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2708,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 118,
+        "nonidle": 2394,
+        "idle": 314,
+        "productive": 632
+      },
+      "indicators": {
+        "mature": 3585,
+        "unwatered": 15,
+        "weed": 193,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 11,
+      "seed": 860005,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24007.0,
+      "v4_reward": 24007.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2708,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 118,
+        "nonidle": 2394,
+        "idle": 314,
+        "productive": 632
+      },
+      "indicators": {
+        "mature": 3585,
+        "unwatered": 15,
+        "weed": 193,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 12,
+      "seed": 860006,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 21232.0,
+      "v4_reward": 21677.0,
+      "difference": -445.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2357,
+        "idle": 395,
+        "productive": 656
+      },
+      "indicators": {
+        "mature": 4338,
+        "unwatered": 15,
+        "weed": 129,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 13,
+      "seed": 860006,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 21677.0,
+      "v4_reward": 21232.0,
+      "difference": 445.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2386,
+        "idle": 366,
+        "productive": 657
+      },
+      "indicators": {
+        "mature": 4083,
+        "unwatered": 20,
+        "weed": 193,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 14,
+      "seed": 860007,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23963.0,
+      "v4_reward": 23963.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2445,
+        "idle": 307,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4415,
+        "unwatered": 21,
+        "weed": 337,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 15,
+      "seed": 860007,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23963.0,
+      "v4_reward": 23963.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2443,
+        "idle": 309,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4415,
+        "unwatered": 21,
+        "weed": 280,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 16,
+      "seed": 860008,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24850.0,
+      "v4_reward": 24668.0,
+      "difference": 182.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2420,
+        "idle": 332,
+        "productive": 661
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 23,
+        "weed": 235,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 17,
+      "seed": 860008,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24668.0,
+      "v4_reward": 24850.0,
+      "difference": -182.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2445,
+        "idle": 307,
+        "productive": 650
+      },
+      "indicators": {
+        "mature": 4368,
+        "unwatered": 25,
+        "weed": 170,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 18,
+      "seed": 860009,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24624.0,
+      "v4_reward": 24510.0,
+      "difference": 114.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2401,
+        "idle": 351,
+        "productive": 631
+      },
+      "indicators": {
+        "mature": 4431,
+        "unwatered": 20,
+        "weed": 99,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 19,
+      "seed": 860009,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24510.0,
+      "v4_reward": 24624.0,
+      "difference": -114.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2415,
+        "idle": 337,
+        "productive": 637
+      },
+      "indicators": {
+        "mature": 4300,
+        "unwatered": 25,
+        "weed": 206,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 20,
+      "seed": 860010,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23272.0,
+      "v4_reward": 23272.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2393,
+        "idle": 359,
+        "productive": 650
+      },
+      "indicators": {
+        "mature": 3564,
+        "unwatered": 22,
+        "weed": 197,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 21,
+      "seed": 860010,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23272.0,
+      "v4_reward": 23272.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2393,
+        "idle": 359,
+        "productive": 650
+      },
+      "indicators": {
+        "mature": 3564,
+        "unwatered": 22,
+        "weed": 197,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 22,
+      "seed": 860011,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 22992.0,
+      "v4_reward": 22992.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2399,
+        "idle": 353,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 3538,
+        "unwatered": 17,
+        "weed": 257,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 23,
+      "seed": 860011,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 22992.0,
+      "v4_reward": 22992.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2399,
+        "idle": 353,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 3538,
+        "unwatered": 17,
+        "weed": 234,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 24,
+      "seed": 860012,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23177.0,
+      "v4_reward": 23177.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2438,
+        "idle": 314,
+        "productive": 667
+      },
+      "indicators": {
+        "mature": 4462,
+        "unwatered": 21,
+        "weed": 269,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 25,
+      "seed": 860012,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23177.0,
+      "v4_reward": 23177.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2438,
+        "idle": 314,
+        "productive": 667
+      },
+      "indicators": {
+        "mature": 4462,
+        "unwatered": 21,
+        "weed": 269,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 26,
+      "seed": 860013,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24556.0,
+      "v4_reward": 24556.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 662
+      },
+      "indicators": {
+        "mature": 4369,
+        "unwatered": 23,
+        "weed": 266,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 27,
+      "seed": 860013,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24556.0,
+      "v4_reward": 24556.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 662
+      },
+      "indicators": {
+        "mature": 4369,
+        "unwatered": 23,
+        "weed": 360,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 28,
+      "seed": 860014,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24712.0,
+      "v4_reward": 24881.0,
+      "difference": -169.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2640,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 115,
+        "nonidle": 2260,
+        "idle": 380,
+        "productive": 640
+      },
+      "indicators": {
+        "mature": 3514,
+        "unwatered": 18,
+        "weed": 189,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 29,
+      "seed": 860014,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24881.0,
+      "v4_reward": 24712.0,
+      "difference": 169.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2313,
+        "idle": 439,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 3597,
+        "unwatered": 18,
+        "weed": 181,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 30,
+      "seed": 860015,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24752.0,
+      "v4_reward": 25369.0,
+      "difference": -617.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2412,
+        "idle": 340,
+        "productive": 636
+      },
+      "indicators": {
+        "mature": 4376,
+        "unwatered": 27,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 31,
+      "seed": 860015,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 25369.0,
+      "v4_reward": 24752.0,
+      "difference": 617.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2417,
+        "idle": 335,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 4549,
+        "unwatered": 30,
+        "weed": 183,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 32,
+      "seed": 860016,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 30436.0,
+      "v4_reward": 30436.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2362,
+        "idle": 390,
+        "productive": 648
+      },
+      "indicators": {
+        "mature": 3726,
+        "unwatered": 19,
+        "weed": 200,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 33,
+      "seed": 860016,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 30436.0,
+      "v4_reward": 30436.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2362,
+        "idle": 390,
+        "productive": 648
+      },
+      "indicators": {
+        "mature": 3726,
+        "unwatered": 19,
+        "weed": 200,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 34,
+      "seed": 860017,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24630.0,
+      "v4_reward": 24630.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2443,
+        "idle": 309,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4415,
+        "unwatered": 21,
+        "weed": 280,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 35,
+      "seed": 860017,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24630.0,
+      "v4_reward": 24630.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2443,
+        "idle": 309,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4415,
+        "unwatered": 21,
+        "weed": 280,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 36,
+      "seed": 860018,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23814.0,
+      "v4_reward": 23814.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 665
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 21,
+        "weed": 292,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 37,
+      "seed": 860018,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23814.0,
+      "v4_reward": 23814.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 665
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 21,
+        "weed": 269,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 38,
+      "seed": 860019,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24551.0,
+      "v4_reward": 24551.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2417,
+        "idle": 335,
+        "productive": 636
+      },
+      "indicators": {
+        "mature": 4300,
+        "unwatered": 25,
+        "weed": 206,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 39,
+      "seed": 860019,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24551.0,
+      "v4_reward": 24551.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2417,
+        "idle": 335,
+        "productive": 636
+      },
+      "indicators": {
+        "mature": 4300,
+        "unwatered": 25,
+        "weed": 159,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 40,
+      "seed": 860020,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 35297.0,
+      "v4_reward": 35553.0,
+      "difference": -256.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2410,
+        "idle": 342,
+        "productive": 636
+      },
+      "indicators": {
+        "mature": 3438,
+        "unwatered": 18,
+        "weed": 242,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 41,
+      "seed": 860020,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 35553.0,
+      "v4_reward": 35297.0,
+      "difference": 256.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2430,
+        "idle": 322,
+        "productive": 651
+      },
+      "indicators": {
+        "mature": 3457,
+        "unwatered": 12,
+        "weed": 210,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 42,
+      "seed": 860021,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24082.0,
+      "v4_reward": 23485.0,
+      "difference": 597.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2429,
+        "idle": 323,
+        "productive": 646
+      },
+      "indicators": {
+        "mature": 3485,
+        "unwatered": 14,
+        "weed": 139,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 43,
+      "seed": 860021,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 23485.0,
+      "v4_reward": 24082.0,
+      "difference": -597.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2730,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 119,
+        "nonidle": 2435,
+        "idle": 295,
+        "productive": 645
+      },
+      "indicators": {
+        "mature": 3326,
+        "unwatered": 14,
+        "weed": 362,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 44,
+      "seed": 860022,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24787.0,
+      "v4_reward": 24787.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2432,
+        "idle": 320,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 21,
+        "weed": 269,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 45,
+      "seed": 860022,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24787.0,
+      "v4_reward": 24787.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2432,
+        "idle": 320,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 21,
+        "weed": 269,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 46,
+      "seed": 860023,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24442.0,
+      "v4_reward": 24140.0,
+      "difference": 302.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2433,
+        "idle": 319,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4456,
+        "unwatered": 19,
+        "weed": 187,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 47,
+      "seed": 860023,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24140.0,
+      "v4_reward": 24442.0,
+      "difference": -302.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2451,
+        "idle": 301,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4167,
+        "unwatered": 17,
+        "weed": 296,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 48,
+      "seed": 860024,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24749.0,
+      "v4_reward": 24922.0,
+      "difference": -173.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2439,
+        "idle": 313,
+        "productive": 647
+      },
+      "indicators": {
+        "mature": 4374,
+        "unwatered": 29,
+        "weed": 220,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 49,
+      "seed": 860024,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24922.0,
+      "v4_reward": 24749.0,
+      "difference": 173.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2451,
+        "idle": 301,
+        "productive": 651
+      },
+      "indicators": {
+        "mature": 4533,
+        "unwatered": 30,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 50,
+      "seed": 860025,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 23000.0,
+      "v4_reward": 25514.0,
+      "difference": -2514.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2453,
+        "idle": 299,
+        "productive": 665
+      },
+      "indicators": {
+        "mature": 4290,
+        "unwatered": 18,
+        "weed": 304,
+        "unsold": 19
+      }
+    },
+    {
+      "game_index": 51,
+      "seed": 860025,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 25514.0,
+      "v4_reward": 23000.0,
+      "difference": 2514.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2443,
+        "idle": 309,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4415,
+        "unwatered": 21,
+        "weed": 280,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 52,
+      "seed": 860026,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24906.0,
+      "v4_reward": 24488.0,
+      "difference": 418.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2395,
+        "idle": 357,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 4504,
+        "unwatered": 28,
+        "weed": 90,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 53,
+      "seed": 860026,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24488.0,
+      "v4_reward": 24906.0,
+      "difference": -418.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2412,
+        "idle": 340,
+        "productive": 636
+      },
+      "indicators": {
+        "mature": 4376,
+        "unwatered": 27,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 54,
+      "seed": 860027,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 22051.0,
+      "v4_reward": 21983.0,
+      "difference": 68.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2336,
+        "idle": 416,
+        "productive": 642
+      },
+      "indicators": {
+        "mature": 3766,
+        "unwatered": 15,
+        "weed": 87,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 55,
+      "seed": 860027,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 21983.0,
+      "v4_reward": 22051.0,
+      "difference": -68.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2364,
+        "idle": 388,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 3704,
+        "unwatered": 15,
+        "weed": 166,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 56,
+      "seed": 860028,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24953.0,
+      "v4_reward": 24826.0,
+      "difference": 127.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2440,
+        "idle": 312,
+        "productive": 652
+      },
+      "indicators": {
+        "mature": 4457,
+        "unwatered": 22,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 57,
+      "seed": 860028,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24826.0,
+      "v4_reward": 24953.0,
+      "difference": -127.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2448,
+        "idle": 304,
+        "productive": 654
+      },
+      "indicators": {
+        "mature": 4510,
+        "unwatered": 26,
+        "weed": 169,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 58,
+      "seed": 860029,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 25413.0,
+      "v4_reward": 25413.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2420,
+        "idle": 332,
+        "productive": 661
+      },
+      "indicators": {
+        "mature": 4439,
+        "unwatered": 23,
+        "weed": 279,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 59,
+      "seed": 860029,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 25413.0,
+      "v4_reward": 25413.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2420,
+        "idle": 332,
+        "productive": 661
+      },
+      "indicators": {
+        "mature": 4439,
+        "unwatered": 23,
+        "weed": 279,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 60,
+      "seed": 860030,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 21987.0,
+      "v4_reward": 21987.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2365,
+        "idle": 387,
+        "productive": 644
+      },
+      "indicators": {
+        "mature": 3753,
+        "unwatered": 18,
+        "weed": 174,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 61,
+      "seed": 860030,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 21987.0,
+      "v4_reward": 21987.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2365,
+        "idle": 387,
+        "productive": 644
+      },
+      "indicators": {
+        "mature": 3753,
+        "unwatered": 18,
+        "weed": 174,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 62,
+      "seed": 860031,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24637.0,
+      "v4_reward": 24290.0,
+      "difference": 347.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2420,
+        "idle": 332,
+        "productive": 661
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 23,
+        "weed": 235,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 63,
+      "seed": 860031,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24290.0,
+      "v4_reward": 24637.0,
+      "difference": -347.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2431,
+        "idle": 321,
+        "productive": 658
+      },
+      "indicators": {
+        "mature": 4247,
+        "unwatered": 21,
+        "weed": 159,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 64,
+      "seed": 860032,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24137.0,
+      "v4_reward": 24137.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2448,
+        "idle": 304,
+        "productive": 638
+      },
+      "indicators": {
+        "mature": 3867,
+        "unwatered": 23,
+        "weed": 330,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 65,
+      "seed": 860032,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24137.0,
+      "v4_reward": 24137.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2448,
+        "idle": 304,
+        "productive": 638
+      },
+      "indicators": {
+        "mature": 3867,
+        "unwatered": 23,
+        "weed": 259,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 66,
+      "seed": 860033,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23112.0,
+      "v4_reward": 23112.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2432,
+        "idle": 320,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 21,
+        "weed": 292,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 67,
+      "seed": 860033,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23112.0,
+      "v4_reward": 23112.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2433,
+        "idle": 319,
+        "productive": 670
+      },
+      "indicators": {
+        "mature": 4448,
+        "unwatered": 21,
+        "weed": 290,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 68,
+      "seed": 860034,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23605.0,
+      "v4_reward": 23605.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2429,
+        "idle": 323,
+        "productive": 646
+      },
+      "indicators": {
+        "mature": 3485,
+        "unwatered": 14,
+        "weed": 139,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 69,
+      "seed": 860034,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 23605.0,
+      "v4_reward": 23605.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2429,
+        "idle": 323,
+        "productive": 649
+      },
+      "indicators": {
+        "mature": 3485,
+        "unwatered": 15,
+        "weed": 179,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 70,
+      "seed": 860035,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24807.0,
+      "v4_reward": 24807.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 662
+      },
+      "indicators": {
+        "mature": 4369,
+        "unwatered": 23,
+        "weed": 266,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 71,
+      "seed": 860035,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24807.0,
+      "v4_reward": 24807.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 662
+      },
+      "indicators": {
+        "mature": 4369,
+        "unwatered": 23,
+        "weed": 266,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 72,
+      "seed": 860036,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 23540.0,
+      "v4_reward": 23720.0,
+      "difference": -180.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2434,
+        "idle": 318,
+        "productive": 665
+      },
+      "indicators": {
+        "mature": 4322,
+        "unwatered": 22,
+        "weed": 240,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 73,
+      "seed": 860036,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 23720.0,
+      "v4_reward": 23540.0,
+      "difference": 180.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2453,
+        "idle": 299,
+        "productive": 639
+      },
+      "indicators": {
+        "mature": 4135,
+        "unwatered": 24,
+        "weed": 106,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 74,
+      "seed": 860037,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24111.0,
+      "v4_reward": 24111.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2618,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 114,
+        "nonidle": 2340,
+        "idle": 278,
+        "productive": 634
+      },
+      "indicators": {
+        "mature": 3187,
+        "unwatered": 14,
+        "weed": 145,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 75,
+      "seed": 860037,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24111.0,
+      "v4_reward": 24111.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2618,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 114,
+        "nonidle": 2340,
+        "idle": 278,
+        "productive": 634
+      },
+      "indicators": {
+        "mature": 3187,
+        "unwatered": 14,
+        "weed": 98,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 76,
+      "seed": 860038,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 23859.0,
+      "v4_reward": 22853.0,
+      "difference": 1006.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2391,
+        "idle": 361,
+        "productive": 673
+      },
+      "indicators": {
+        "mature": 5130,
+        "unwatered": 19,
+        "weed": 74,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 77,
+      "seed": 860038,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 22853.0,
+      "v4_reward": 23859.0,
+      "difference": -1006.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2730,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 119,
+        "nonidle": 2307,
+        "idle": 423,
+        "productive": 658
+      },
+      "indicators": {
+        "mature": 4751,
+        "unwatered": 12,
+        "weed": 97,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 78,
+      "seed": 860039,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24060.0,
+      "v4_reward": 24590.0,
+      "difference": -530.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2426,
+        "idle": 326,
+        "productive": 659
+      },
+      "indicators": {
+        "mature": 4162,
+        "unwatered": 28,
+        "weed": 239,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 79,
+      "seed": 860039,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24590.0,
+      "v4_reward": 24060.0,
+      "difference": 530.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2428,
+        "idle": 324,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4359,
+        "unwatered": 20,
+        "weed": 299,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 80,
+      "seed": 860040,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24912.0,
+      "v4_reward": 24912.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2451,
+        "idle": 301,
+        "productive": 651
+      },
+      "indicators": {
+        "mature": 4533,
+        "unwatered": 30,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 81,
+      "seed": 860040,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24912.0,
+      "v4_reward": 24912.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2451,
+        "idle": 301,
+        "productive": 651
+      },
+      "indicators": {
+        "mature": 4533,
+        "unwatered": 30,
+        "weed": 130,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 82,
+      "seed": 860041,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24975.0,
+      "v4_reward": 24975.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2455,
+        "idle": 297,
+        "productive": 667
+      },
+      "indicators": {
+        "mature": 4622,
+        "unwatered": 30,
+        "weed": 244,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 83,
+      "seed": 860041,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24975.0,
+      "v4_reward": 24975.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2455,
+        "idle": 297,
+        "productive": 667
+      },
+      "indicators": {
+        "mature": 4622,
+        "unwatered": 30,
+        "weed": 244,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 84,
+      "seed": 860042,
+      "v5_position": 0,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 24411.0,
+      "v4_reward": 24338.0,
+      "difference": 73.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2730,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 119,
+        "nonidle": 2355,
+        "idle": 375,
+        "productive": 642
+      },
+      "indicators": {
+        "mature": 3661,
+        "unwatered": 17,
+        "weed": 234,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 85,
+      "seed": 860042,
+      "v5_position": 1,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24338.0,
+      "v4_reward": 24411.0,
+      "difference": -73.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2708,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 118,
+        "nonidle": 2356,
+        "idle": 352,
+        "productive": 646
+      },
+      "indicators": {
+        "mature": 3605,
+        "unwatered": 21,
+        "weed": 253,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 86,
+      "seed": 860043,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 27237.0,
+      "v4_reward": 27237.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2430,
+        "idle": 322,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4340,
+        "unwatered": 19,
+        "weed": 279,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 87,
+      "seed": 860043,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 27237.0,
+      "v4_reward": 27237.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2430,
+        "idle": 322,
+        "productive": 669
+      },
+      "indicators": {
+        "mature": 4340,
+        "unwatered": 19,
+        "weed": 279,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 88,
+      "seed": 860044,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24448.0,
+      "v4_reward": 24448.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2426,
+        "idle": 326,
+        "productive": 646
+      },
+      "indicators": {
+        "mature": 3863,
+        "unwatered": 19,
+        "weed": 326,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 89,
+      "seed": 860044,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24448.0,
+      "v4_reward": 24448.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2426,
+        "idle": 326,
+        "productive": 646
+      },
+      "indicators": {
+        "mature": 3863,
+        "unwatered": 19,
+        "weed": 373,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 90,
+      "seed": 860045,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 24891.0,
+      "v4_reward": 25152.0,
+      "difference": -261.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2418,
+        "idle": 334,
+        "productive": 637
+      },
+      "indicators": {
+        "mature": 3925,
+        "unwatered": 14,
+        "weed": 211,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 91,
+      "seed": 860045,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 25152.0,
+      "v4_reward": 24891.0,
+      "difference": 261.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2432,
+        "idle": 320,
+        "productive": 664
+      },
+      "indicators": {
+        "mature": 4020,
+        "unwatered": 17,
+        "weed": 376,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 92,
+      "seed": 860046,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24656.0,
+      "v4_reward": 24656.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2474,
+        "idle": 278,
+        "productive": 656
+      },
+      "indicators": {
+        "mature": 4169,
+        "unwatered": 24,
+        "weed": 201,
+        "unsold": 9
+      }
+    },
+    {
+      "game_index": 93,
+      "seed": 860046,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24656.0,
+      "v4_reward": 24656.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2474,
+        "idle": 278,
+        "productive": 656
+      },
+      "indicators": {
+        "mature": 4169,
+        "unwatered": 24,
+        "weed": 201,
+        "unsold": 9
+      }
+    },
+    {
+      "game_index": 94,
+      "seed": 860047,
+      "v5_position": 0,
+      "winner": "V4",
+      "completed": true,
+      "v5_reward": 21017.0,
+      "v4_reward": 21618.0,
+      "difference": -601.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2334,
+        "idle": 418,
+        "productive": 677
+      },
+      "indicators": {
+        "mature": 5324,
+        "unwatered": 15,
+        "weed": 80,
+        "unsold": 11
+      }
+    },
+    {
+      "game_index": 95,
+      "seed": 860047,
+      "v5_position": 1,
+      "winner": "V5",
+      "completed": true,
+      "v5_reward": 21618.0,
+      "v4_reward": 21017.0,
+      "difference": 601.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2318,
+        "idle": 434,
+        "productive": 676
+      },
+      "indicators": {
+        "mature": 5384,
+        "unwatered": 19,
+        "weed": 38,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 96,
+      "seed": 860048,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24231.0,
+      "v4_reward": 24231.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2449,
+        "idle": 303,
+        "productive": 662
+      },
+      "indicators": {
+        "mature": 4167,
+        "unwatered": 16,
+        "weed": 275,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 97,
+      "seed": 860048,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24231.0,
+      "v4_reward": 24231.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2449,
+        "idle": 303,
+        "productive": 662
+      },
+      "indicators": {
+        "mature": 4167,
+        "unwatered": 16,
+        "weed": 275,
+        "unsold": 0
+      }
+    },
+    {
+      "game_index": 98,
+      "seed": 860049,
+      "v5_position": 0,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24350.0,
+      "v4_reward": 24350.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2474,
+        "idle": 278,
+        "productive": 656
+      },
+      "indicators": {
+        "mature": 4169,
+        "unwatered": 24,
+        "weed": 201,
+        "unsold": 9
+      }
+    },
+    {
+      "game_index": 99,
+      "seed": 860049,
+      "v5_position": 1,
+      "winner": "DRAW",
+      "completed": true,
+      "v5_reward": 24350.0,
+      "v4_reward": 24350.0,
+      "difference": 0.0,
+      "v5_status": "DONE",
+      "v4_status": "DONE",
+      "error": null,
+      "expansions": 0,
+      "purchase_turns": [],
+      "metrics": {
+        "managed_sum": 17256,
+        "available": 2752,
+        "expansion_orders": 0,
+        "hire_cost_proxy": 120,
+        "nonidle": 2474,
+        "idle": 278,
+        "productive": 656
+      },
+      "indicators": {
+        "mature": 4169,
+        "unwatered": 24,
+        "weed": 201,
+        "unsold": 9
+      }
+    }
+  ]
+}
